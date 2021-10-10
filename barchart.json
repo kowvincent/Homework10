@@ -1,0 +1,12 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "data": {"url": "https://raw.githubusercontent.com/kowvincent/Homework10/main/imdb.csv"},
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "kind", "title":"Genre"},
+    "y": {"aggregate": "count", "title": "Number Count"}
+  }
+}
+  
